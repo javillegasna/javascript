@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrow Functions</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body id="body">
+    <header>
+        <picture class="pict-logo">
+            <a href="../../../index.html"><img class="pict-logo__img" src="./assets/personal-Logol.png" title="Home" alt="Personal logo it's a J whit diferent colors into themself"></a>
+        </picture>
+        <nav class="nav">
+            <picture class="nav__pict">
+                <a href="https://github.com/javillegasna" target="_blank"><img class="nav__icon" src="./assets/icon-git.png" alt="Github icon whit link to personal Github profile"></a>
+            </picture>
+            <picture class="nav__pict">
+                <a href="https://www.linkedin.com/in/javiervillegasnaranjo" target="_blank" ><img class="nav__icon" src="./assets/icon-Link.png" alt="Linkedin icon whit link to personal Linkedin profile"></a>
+            </picture>
+            <picture class="nav__pict">
+                <a href="https://www.facebook.com/javier.villegas.3760" target="_blank" ><img class="nav__icon" src="./assets/icon-face.png"  alt="Facebok icon whit link to personal facebook profile"></a>
+            </picture>
+        </nav>
+    </header>
+    <main id="paragraph">
+        <h1 >My Boring Website</h1>
+        <p >
+            This website is boring, with very little CSS. 
+            However, we really just care about the javascript. 
+            For example, if you click <button id="button">this button</button>, the background of this paragraph tag will change to blue.
+        </p>
+        <p>We also have a <button id="alert">alert</button> button that will grab the text from the input below and show it in a popup.</p>
+        <div>
+            <input type="text" id="popup-input">
+        </div>
+        <p>
+            We just like random interactivity in the site, including a fun effect if you hover over <span id="hover-this">        <b>this.</b></span>
+        </p>
+        <p onmouseover="mouseOverFunction(this)">
+            Another task: This should be another feature. 
+            I want to click anywhere in this paragraph tag and I want to be able to change the background color to whatever is in this input: <input type="text"/>.
+        </p>
+    </main>
+    
+    <script src="./src/main.js"></script>
+</body>
+</html>
