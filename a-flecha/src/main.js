@@ -30,3 +30,6 @@ const mouseOverFunction = (el) => {
     el.style = "background-color: black";
 }
 
+const mouseOutFuntion = (el)=>{
+    el.style= "background-color: #253142"
+}
