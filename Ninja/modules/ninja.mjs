@@ -1,4 +1,5 @@
-class Ninja {
+//Javier Villegas
+export class Ninja {
     constructor(nombre,salud=90){
         this.nombre=nombre;
         this.salud=salud;
@@ -7,6 +8,9 @@ class Ninja {
     }
     sayName(){
         console.log(`${this.nombre}`);
+    }
+    sayFr(message){
+        console.log(message)
     }
     showStats(){
         console.log(`Fuerza: ${this.fuerza} Velocidad:${this.velocidad} Salud:${this.salud}`);
@@ -18,11 +22,3 @@ class Ninja {
         this.salud-=10;
     }
 }
-
-const ninja1 = new Ninja("Hyabusa");
-ninja1.sayName();
-ninja1.showStats();
-ninja1.dinkSake();
-ninja1.showStats();
-ninja1.hurt();
-ninja1.showStats();
