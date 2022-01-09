@@ -1,3 +1,4 @@
+//Javier Villegas
 const pokemons = Object.freeze([
     { "id": 1,   "name": "Bulbasaur",  "types": ["poison", "grass"] },
     { "id": 5,   "name": "Charmeleon", "types": ["fire"] },
