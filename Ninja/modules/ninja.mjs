@@ -1,4 +1,4 @@
-//Javier Villegas
+//Javier Villegas 
 export class Ninja {
     #nombre;
     salud;

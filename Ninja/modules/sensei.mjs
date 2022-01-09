@@ -1,3 +1,4 @@
+//Javier Villegas
 import { Ninja } from "./ninja.mjs";
 export class Sensei extends Ninja {
     constructor(nombre, saludS = 200,sabiduria=10,fuerza=50){
