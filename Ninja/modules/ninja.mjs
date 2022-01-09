@@ -1,10 +1,14 @@
 //Javier Villegas
 export class Ninja {
-    constructor(nombre,salud=90){
+    #nombre;
+    salud;
+    velocidad;
+    fuerza;
+    constructor(nombre,salud=90,fuerza){
         this.nombre=nombre;
         this.salud=salud;
         this.velocidad=3;
-        this.fuerza=3;
+        this.fuerza=fuerza;
     }
     sayName(){
         console.log(`${this.nombre}`);
@@ -20,5 +24,11 @@ export class Ninja {
     }
     hurt(){
         this.salud-=10;
+    }
+    getSalud(){
+        return this.salud;
+    }
+    setSalud(salud){
+        this.salud=salud;
     }
 }

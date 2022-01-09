@@ -2,7 +2,7 @@ import { Ninja } from "./modules/ninja.mjs";
 import { Sensei } from "./modules/sensei.mjs";
 
 
-const ninja1 = new Ninja("Hyabusa");
+const ninja1 = new Ninja("Hyabusa",100,50);
 ninja1.sayName();
 ninja1.showStats();
 ninja1.dinkSake();
