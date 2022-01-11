@@ -37,7 +37,7 @@ const pkmnId3s = pokemons.filter(pokemon => pokemon.id % 3 === 0);
 console.log("Pokémon donde la identificación es divisible por 3 \n",pkmnId3s);
 
 //Una serie de objetos Pokémon que son del tipo "fuego"
-const firePkmn = pokemons.filter(pokemon => pokemon.types[0]=="fire");
+const firePkmn = pokemons.filter(pokemon => pokemon.types.includes("fire"));
 console.log('Pokémon que son del tipo "fuego" \n',firePkmn);
 
 //Una variedad de objetos Pokémon que tienen más de un tipo
@@ -61,5 +61,6 @@ const duoTypeFlying = pokemons.filter(pokemon=>pokemon.types.length>1 && pokemon
 console.log('matriz que contiene solo el primer tipo de todos los Pokémon cuyo segundo tipo es "volador" \n',duoTypeFlying);
 
 //un recuento de la cantidad de pokémon que son de tipo "normal"
-const normalPkmn = pokemons.filter(pokemon => pokemon.types.reduce((acc,el)=>acc=="normal" || el =="normal",false)).length;
+const normalPkmn = pokemons.filter(pokemon => pokemon.types.includes("normal")).length;
 console.log('recuento de la cantidad de pokémon que son de tipo "normal" \n',normalPkmn);
+
