@@ -121,4 +121,84 @@ header {
   margin: 0 0.5rem;
   max-height: 2rem;
 }
+
+main {
+  position: relative;
+}
+
+main .label1 {
+  position: absolute;
+  top: 0;
+}
+
+main .label2 {
+  position: absolute;
+  top: 150;
+}
+
+.card {
+  width: 15vw;
+  padding: 8px;
+  border: 1px solid #FFFFFF;
+  font-size: smaller;
+}
+
+.card h2, .card p {
+  font-size: smaller;
+}
+
+.card__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.board__Player1 {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid #ABAFB3;
+}
+
+.board__Player2 {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid #ABAFB3;
+}
+
+.board__Turn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=main.css.map */
